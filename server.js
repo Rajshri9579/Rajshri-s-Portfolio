@@ -11,6 +11,7 @@ server.use(cors({
     credentials : true,
     methods : ['GET', 'POST', 'DELETE', 'PUT'],
     name : 'http://localhost:3030',
+    
 }))
 
 server.use(express.json({extended:true}))
